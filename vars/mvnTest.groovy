@@ -1,3 +1,3 @@
-def call(Map stageParams) {
+def call() {
     sh 'mvn test'
 }
