@@ -1,3 +1,3 @@
 def call() {
-    bat 'mvn clean package'
+    sh './mvnw.cmd clean package'
 }
