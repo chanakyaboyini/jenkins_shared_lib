@@ -1,3 +1,3 @@
 def call(Map stageParams) {
-    sh 'mvn test'
+    sh './mvnw.cmd test'
 }
